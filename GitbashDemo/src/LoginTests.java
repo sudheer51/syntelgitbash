@@ -53,7 +53,7 @@ public class LoginTests extends BaseClass {
 		String expectedTitle=expectedMsg;
 		System.out.println("Login to MMP is successful");
 		Assert.assertEquals(actualTitle, expectedTitle);
-		 
+	      	 
 	}
 
 }
