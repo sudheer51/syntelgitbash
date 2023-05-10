@@ -12,7 +12,8 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class LoginTests extends BaseClass {
+public class LoginTests extends BaseClass 
+{
 	HashMap<String,String> expectedHMap= new HashMap<String,String>();
 	HashMap<String,String> actualHMap= new HashMap<String,String>();	
 	@Parameters({"username","password"})
